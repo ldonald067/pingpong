@@ -8,12 +8,12 @@ if (number % 15 === 0) {
 
 
 else if (number % 5 === 0) {
-  total.push("pingpong");
+  total.push("pong");
 }
 
 
 else if (number % 3 === 0) {
-  total.push("pingpong");
+  total.push("ping");
 }
 
 
