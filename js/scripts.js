@@ -28,7 +28,7 @@ var pingPong = function(input) {
 
     }
   }
-  
+
   console.log(total);
   return total;
 
@@ -44,6 +44,10 @@ $(document).ready(function() {
     newTotals.forEach(function(newTotal) {
       $(".list").append("<li>" + newTotal + "</li>");
 
+      $("#redo").click(function() {
+        location.reload();
+
+      });
     });
   });
 });
