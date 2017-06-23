@@ -46,6 +46,7 @@ LaTanya Donaldson ldonald234@gmail.com
 ## Technologies Used
 
 * HTML
+* Bootstrap
 * CSS
 * Qquery
 * Javascript
