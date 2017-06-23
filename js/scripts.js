@@ -1,6 +1,8 @@
+//Business logic//
+
 var pingPong = function(input) {
 var total = [];
-for (var number = 1; number <= index; number ++) {
+for (var number = 1; number <= input; number ++) {
 
 if (number % 15 === 0) {
   total.push("pingpong");
@@ -18,11 +20,11 @@ else if (number % 3 === 0) {
 
 
 else {
-  total.push(index);
+  total.push(input);
 }
 
 }
-
+console.log(total);
 return total;
 
 }
